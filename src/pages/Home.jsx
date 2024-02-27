@@ -1,12 +1,15 @@
 import React from 'react'
 import Products from '../components/products/Products'
-import Card from '../components/card/Card'
+import Cart from '../components/cart/Cart'
+import { useCart } from '../context/CartContext'
 
 function Home() {
+  const {productCart}  = useCart();
+  console.log(productCart);
   return (
     <div className='grid grid-cols-2'>
         <div>
-            <Card/>
+            <Cart/>
         </div>
         <div>
             <Products/>
