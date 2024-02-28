@@ -2,18 +2,24 @@ import React from "react";
 import { useCart } from "../../context/CartContext";
 
 function Card({ product }) {
-  const {addToCart}=useCart();
+  const { addToCart } = useCart();
   return (
-    <div className="border border-[#72818D]">
+    <div className="w-full max-w-sm  rounded  shadow">
       <div className="h-40">
         <img src={product?.image} alt="Product" className="w-full h-full" />
       </div>
-      <div className="text-[#637381] bg-[#F4F6F8] flex flex-col">
-        <h3 className="text-center font-medium">${product?.price}</h3>
+      <div>
+        <h3 className=" text-center tracking-tight ">${product?.price}</h3>
         <div className="w-full h-[0.7px] bg-[#E5E7E8]"></div>
-        <p className="text-center">{product?.title}</p>
+        <h3 className=" text-center tracking-tight ">{product?.title}</h3>
+        <div className="w-full h-[0.7px] bg-[#E5E7E8]"></div>
       </div>
-      <button onClick={()=>addToCart({...product,quantity: 1})} className="py-3 px-6 bg-black text-white">Add to Cart</button>
+      <button
+          onClick={() => addToCart({ ...product, quantity: 1 })}
+          className="text-white bg-gray-700 hover:bg-gray-800 font-medium text-sm w-full   px-5 py-2.5 "
+        >
+          Add to Cart
+        </button>
     </div>
   );
 }

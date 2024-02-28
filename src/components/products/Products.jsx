@@ -41,113 +41,113 @@ function Products() {
 const products = [
     {
         id:1,
-        title:'Pure White Polo',
+        title:'Blue T-Shirt',
         price:'43',
         category:'Men Fashion',
-        image:Images.product
+        image:Images.blueTShirt
     },
     {
         id:2,
-        title:'Pure White Polo',
-        price:'43',
+        title:'Grey full T-Shirt',
+        price:'50',
         category:'Men Fashion',
-        image:Images.product
+        image:Images.greyLongSleeveTShirt
     },
     {
         id:3,
-        title:'Pure White Polo',
+        title:'Sky Blue T-Shirt',
         price:'43',
         category:'Men Fashion',
-        image:Images.product
+        image:Images.skyBlueTShirt
     },
     {
         id:4,
-        title:'Pure White Polo',
+        title:'Pink T-Shirt',
         price:'43',
         category:'Men Fashion',
-        image:Images.product
+        image:Images.pinkTShirt
     },
     {
         id:5,
-        title:'Pure White Polo',
+        title:'White T-Shirt',
         price:'43',
         category:'Men Fashion',
-        image:Images.product
+        image:Images.whiteTShirt
     },
     {
         id:6,
-        title:'Pure White Polo',
+        title:'Gray T-Shirt',
         price:'43',
         category:'Men Fashion',
-        image:Images.product
+        image:Images.grayTShirt
     },
     {
         id:7,
-        title:'Pure White Polo',
+        title:'Olive Green T-Shirt',
         price:'43',
         category:'Men Fashion',
-        image:Images.product
+        image:Images.oliveGreenTShirt
     },
     {
         id:8,
-        title:'Pure White Polo',
+        title:'Green T-Shirt',
         price:'43',
         category:'Men Fashion',
-        image:Images.product
+        image:Images.greenTShirt
     },
     {
         id:9,
-        title:'Pure White Polo',
-        price:'43',
-        category:'Men Fashion',
+        title:'Smart Watch',
+        price:'109',
+        category:'Electronic',
         image:Images.product
     },
     {
         id:10,
-        title:'Pure White Polo',
+        title:'Black T-Shirt',
         price:'43',
         category:'Men Fashion',
-        image:Images.product
+        image:Images.blackTShirt
     },
     {
         id:11,
-        title:'Pure White Polo',
+        title:'Red T-Shirt',
         price:'43',
         category:'Men Fashion',
-        image:Images.product
+        image:Images.redTShirt
     },
     {
         id:12,
-        title:'Pure White Polo',
+        title:'Blue T-Shirt',
         price:'43',
         category:'Men Fashion',
-        image:Images.product
+        image:Images.blueTShirt
     },
     {
         id:13,
-        title:'Pure White Polo',
+        title:'Women Red T-Shirt',
         price:'43',
-        category:'Men Fashion',
-        image:Images.product
+        category:'Women Fashion',
+        image:Images.womenRedTShirt
     },
     {
         id:14,
-        title:'Pure White Polo',
+        title:'Light Green T-Shirt',
         price:'43',
         category:'Men Fashion',
-        image:Images.product
+        image:Images.lightGreenTShirt
     },
     {
         id:15,
-        title:'Pure White Polo',
+        title:'Women Black T-Shirt',
         price:'43',
         category:'Men Fashion',
-        image:Images.product
+        image:Images.womenBlackTShirt
     }
     
 ]
 
-// const products = []
+
 
 
 const categories = [
@@ -158,10 +158,6 @@ const categories = [
     {
         id:2,
         title:'Electronics',
-    },
-    {
-        id:3,
-        title:'Home',
     },
     {
         id:4,
