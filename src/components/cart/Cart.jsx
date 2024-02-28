@@ -11,8 +11,8 @@ import { MdOutlineLocalShipping } from "react-icons/md";
 function Cart() {
  const {productCart} =  useCart()
   return (
-    <div className="ml-8">
-      <div className="flex justify-around   items-center w-full h-14">
+    <div className="lg:ml-8 ml-4 lg:mr-1 mr-4">
+      <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 my-4 w-full ">
       {
             navItems.map((navItem,index)=>(
                 <Navbar navItem={navItem} key={index}/>
@@ -37,8 +37,8 @@ function Cart() {
         }
       </div>
 
-      <div className="flex lg:justify-end my-5">
-        <div className="w-1/2">
+      <div className="flex lg:justify-end justify-center my-5">
+        <div className="lg:w-1/2 w-full">
           <table className="w-full text-sm text-left rtl:text-right text-[#8A96A0]">
             <tbody>
               <tr className=" border-y ">

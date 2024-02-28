@@ -12,7 +12,7 @@ function Products() {
 
     <Search/>
     
-    <div className='grid grid-cols-3 lg:grid-cols-4 gap-4 my-4'>
+    <div className='grid grid-cols-2 lg:grid-cols-4 gap-4 my-4'>
         {
             categories.map((category,index)=>(
                 <Category category={category} key={index}/>
